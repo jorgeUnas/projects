@@ -4,13 +4,13 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, user-scalable=no"/>
     <title>Tribute Page</title>
-    <link rel="stylesheet" type="text/css" href="#"/>
+    <link rel="stylesheet" type="text/css" href="./styles.css"/>
     <link rel="stylesheet" type="text/css" href="#"/>
 </head>
 <body>
-    <h1>Biography of Albert Einstein</h1>
-    <h2>Ulm, 14 March 1879 — Princeton, 18 April 1955</h2>
-    <div>
+    <header>
+        <h1>Biography of Albert Einstein</h1>
+        <h2>Ulm, 14 March 1879 — Princeton, 18 April 1955</h2>
         <nav>
             <ul>
                 <li><b><a href="./index.html">Life</a></b></li>
@@ -19,9 +19,11 @@
                 <li><b><a href="./publications.html">Publications</a></b></li>
             </ul>
         </nav>
-    </div>
-    <section>
+       
+    </header>
+    <div id="content"> 
     <h2>Einstein's Publications</h2>
+    <section id="publications">
     <ul>
         <li>
             Einstein, Albert (1901) [Manuscript received: 16 December 1900]. Written at Zurich, Switzerland. "Folgerungen
@@ -50,6 +52,9 @@
         </li>
     </ul>
     </section>
+    <div class="clearfix"></div>
+    </div>
+
     <footer>
         <p>Privacy Policy</p>
         <p>&copy; All the rigths reserved</p>
